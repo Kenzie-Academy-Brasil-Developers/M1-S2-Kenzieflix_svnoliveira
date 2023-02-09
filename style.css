@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    font-family: "Martel Sans";
+}
+body{
+    background-color: #121214;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    padding: 5vh 0vh;
+}
+h1{
+    font-weight: 600;
+    font-size: 4vh;
+    color: white;
+}
+main{
+    width: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5vh 0vh;
+}
+figure{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plusbox{
+    background-color: #1e1e20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 23vh;
+    height: 23vh;
+    border-radius: 10px;
+}
+label{
+    padding-top: 2vh;
+    color: #9c9c9c;
+    display: inline-block;
+}
+#aline img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#pedrinho img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#julia img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.highlight:hover{
+    outline: 5px solid hsla(270, 50%, 98%, 0.35);
+    outline-offset: -4px;
+    filter: brightness(110%)
+}
+#newbox{
+    transition: 0.5s;
+}
+#newbox:hover{
+    outline: 5px solid hsla(270, 50%, 98%, 0.35);
+    outline-offset: -4px;
+    filter: saturate(100%) brightness(190%);
+}
+#newbox img{
+    filter: saturate(200%) brightness(50%) hue-rotate(330deg);
+}
+button {
+    background-color: #121214;
+    border: white solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.7s;
+  }
+  button:hover{
+    color:black;
+    background-color: white;
+  }
